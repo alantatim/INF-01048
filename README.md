@@ -76,10 +76,10 @@
   </tr>
   <tr>
     <td> Amostras </td>
-    <td> &nbsp; </td>
-    <td> &nbsp; </td>
-    <td> &nbsp; </td>
-    <td> &nbsp; </td>
+    <td> 70000 </td>
+    <td> 70000 </td>
+    <td> 60000 </td>
+    <td> 60000 </td>
   </tr>
   <tr>
     <td> Alturas </td>
