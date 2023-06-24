@@ -98,7 +98,7 @@
   <tr>
     <td> Canais de Cor </td>
     <td> 1 </td>
-    <td> 28 </td>
+    <td> 1 </td>
     <td> 3 </td>
     <td> 3 </td>
   </tr>
