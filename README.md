@@ -129,7 +129,7 @@ Referências:
 </p>
 
 <p align="justify">
-  Resposta
+  Sempre no dataset Mnist e frequentemente no dataset Fashion-Mnist, cuja acurácia oscila entre 0.78 e 0.83. Isso ocorre devido à sua inicialização, que nem sempre é igual.
 </p>
 
 ### Questão 2:
@@ -162,5 +162,12 @@ Referências:
 </p>
 
 <p align="justify">
-  Resposta
+  O uso do otimizador adam junto com camadas convolutivas e max pooling aumentou significativamente a acurácia dos resultados para todos os datasets.
+  A dimensão dos filtros e do max pooling foram 3x3 e 2x2, respectivamente, para todos os datasets.
+  Entretanto, o número de filtros não foi o mesmo para os datasets.
+  16 filtros foram utilizados para os datasets Mnist e Fashion-Mnist enqanto 64 filtros foram usados para os datasets Cifar-10 e Cifar-100.
+  O aumento do número e filtros só aumentou a acurácia dos resultados significativamente para os datasets Cifar-10 e Cifar-100, visto que são os únicos com múltiplos canais de cores.
+  O aumento do número de camadas convolutivas só aumentou a acurácia dos resultados significativamente com duas camadas convolutivas, isto é,
+  com três ou mais, não houve grande diferença na acurácia dos resultados, principalmente levando em conta a demora das execuções.
+  O aumento do número de neurônios não alterou os resultados significativamente, apenas deixando a execução muito mais demorada.
 </p>
