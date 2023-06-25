@@ -129,7 +129,7 @@ Referências:
 </p>
 
 <p align="justify">
-  Sempre no dataset Mnist e frequentemente no dataset Fashion-Mnist, cuja acurácia oscila entre 0.78 e 0.83. Isso ocorre devido à sua inicialização, que nem sempre é igual.
+  Sempre no dataset Mnist e nem sempre no dataset Fashion-Mnist, cuja acurácia oscila entre 0.78 e 0.82.
 </p>
 
 ### Questão 2:
@@ -140,7 +140,7 @@ Referências:
 </p>
 
 <p align="justify">
-  Resposta
+  A acurácia máxima obtida no dataset Cifar-10 oscila entre 0.67 e 0.69.
 </p>
 
 ### Questão 3:
@@ -165,10 +165,10 @@ Referências:
   O uso do otimizador adam, camadas convolutivas, filtragem e max pooling levam as redes neurais a melhorarem o desempenho.
   A dimensão dos filtros e do max pooling foram 3x3 e 2x2, respectivamente, para todos os datasets.
   Contudo, o número de camadas convolutivas e de filtros é diferente entre os datasets do tipo Mnist e do tipo Cifar.
-  16 filtros foram utilizados para os datasets Mnist e Fashion-Mnist enqanto 32 filtros foram usados para os datasets Cifar-10 e Cifar-100, visto que são os únicos com múltiplos canais de cores.
-  O número de camadas convolutivas também é diferente entre os datasets: uma para o dataset Mnist, duas para o dataset Fashion-Mnist, três para o dataset Cifar-10 e {}.
+  16 filtros foram utilizados para os datasets Mnist e Fashion-Mnist enquanto múltiplos filtros foram usados para os datasets Cifar-10 e Cifar-100, visto que são os únicos com múltiplos canais de cores.
+  O número de camadas convolutivas também é diferente entre os datasets: uma para o dataset Mnist, duas para o dataset Fashion-Mnist e quatro paras os datasets Cifar-10 e Cifar-100.
 </p>
 
 <p align="justify">
-  A adição de camadas convolutivas, filtros e neurônios desnecessários tornam a execução muito mais lente e não apresenta melhoras significativas, inclusive piorando em alguns casos.
+  A adição de camadas convolutivas, filtros e neurônios desnecessários tornam a execução muito mais lenta e não apresenta melhoras significativas, inclusive piorando em alguns casos.
 </p>
