@@ -1,4 +1,4 @@
-# INF-01048: Inteligência Artificial - Trabalho 1: Redes Neurais
+# INF-01048 - Trabalho 1: Redes Neurais
 
 <p align="justify">
   Arquivo README.md feito em Markdown sobre o Trabalho de Redes Neurais, o primeiro trabalho de quatro trabalhos, da cadeira Inteligência Aritifical de código INF-01048 da Universidade Federal do Rio Grande do Sul.
