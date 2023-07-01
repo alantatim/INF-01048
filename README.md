@@ -55,6 +55,11 @@
 
 ## Exercício 1:
 
+<p align="justify">
+Valores iniciais de b, w, valores de alpha e num_iterations que resultam na melhor execução da regressão linear:
+b = -3, w = 1, alpha = 0.01 e num_iterations = 8500. O melhor erro quadrático médio obtido: 8.527708190982557.
+</p>
+
 ## Exercício 2:
 
 ### Características dos Datasets:
@@ -140,7 +145,8 @@ Referências:
 </p>
 
 <p align="justify">
-  A acurácia máxima obtida no dataset Cifar-10 oscila entre 0.67 e 0.69.
+  A acurácia máxima obtida no dataset Cifar-10 oscila entre 0.67 e 0.69. A modificação que teve maior impacto positivo em relação à acurácia foi o acréscimo de redes convulcionais enquanto a modificação que     
+  teve maior impacto positivo em relação à velocidade foi a execução de max poolings. O maior desafio/dificuldade foi o tempo entre as execuções.
 </p>
 
 ### Questão 3:
@@ -151,7 +157,8 @@ Referências:
 </p>
 
 <p align="justify">
-  Resposta
+  Não foi posspível obter uma acurácia de valor maior de 60%. A modificação que teve maior impacto positivo em relação à acurácia foi o acréscimo de redes convulcionais enquanto a modificação que     
+  teve maior impacto positivo em relação à velocidade foi a execução de max poolings. O maior desafio/dificuldade foi o tempo entre as execuções.
 </p>
 
 ### Questão 4:
